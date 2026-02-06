@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>DO YOU DARE?</title>
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="dark">
+    <div id="bloodVideoLayer">
+    <video id="bloodVideo" autoplay muted loop playsinline>
+        <source src="assets/blood.mp4" type="video/mp4">
+    </video>
+    </div>
+
+
+    <div id="screen">
+
+        <audio id="bgSound" src="assets/creepy.mp3" loop></audio>
+        <audio id="scareSound" src="assets/scream.mp3"></audio>
+		<audio id="loveSound" src="assets/romantic.mp3" loop></audio>
+
+        <h1 id="title">WILL YOU BE MY VALENTINE?</h1>
+
+        <div id="buttons">
+           <button id="yesBtn" class="horror-btn yes">YES</button>
+           <button id="noBtn" class="horror-btn no">NO</button>
+        </div>
+
+
+    </div>
+
+    <img id="overlayImage">
+	<div id="celebration"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
